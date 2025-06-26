@@ -24,10 +24,17 @@ Un portafolio moderno y profesional que muestra habilidades en diseño web y tec
 
 ```
 MY PORTAFOLIO/
-├── index.html          # Página principal
-├── styles.css          # Estilos CSS
-├── script.js           # Funcionalidades JavaScript
-└── README.md           # Documentación
+├── README.md
+└── public/
+    ├── index.html          # Página principal
+    ├── css/
+    │   ├── styles.css      # Estilos principales
+    │   └── contact.css     # Estilos específicos para contacto
+    ├── js/
+    │   ├── script.js       # JavaScript principal
+    │   └── contact.js      # JavaScript específico para contacto
+    └── pages/
+        └── contact.html    # Página de contacto completa
 ```
 
 ## 🎨 Secciones del Portafolio
@@ -65,21 +72,21 @@ MY PORTAFOLIO/
 ## 🚀 Cómo Usar
 
 1. **Descarga los archivos** en tu computadora
-2. **Abre `index.html`** en tu navegador web
+2. **Abre `public/index.html`** en tu navegador web
 3. **Personaliza el contenido** según tus necesidades
 4. **Sube a un servidor web** para hacerlo público
 
 ## 🎯 Personalización
 
 ### Cambiar Información Personal
-Edita el archivo `index.html` para actualizar:
+Edita el archivo `public/index.html` para actualizar:
 - Nombre y título
 - Descripción personal
 - Proyectos del portafolio
 - Información de contacto
 
 ### Modificar Colores
-En `styles.css`, cambia las variables de color:
+En `public/css/styles.css`, cambia las variables de color:
 ```css
 /* Colores principales */
 --primary-color: #667eea;
@@ -165,4 +172,4 @@ Este proyecto es de uso libre para fines educativos y comerciales.
 
 ---
 
-**¡Disfruta creando tu portafolio profesional! 🎉** 
+**¡Disfruta creando tu portafolio profesional! 🎉**
